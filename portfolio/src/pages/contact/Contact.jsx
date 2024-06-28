@@ -27,6 +27,7 @@ const Contact = () => {
 
             <div className="info__items">
               <FaPhoneSquareAlt className="info__icon" />
+
               <div>
                 <span className="info__title">Call me</span>
                 <h4 className="info__desc">+91 6309858327</h4>
@@ -64,7 +65,7 @@ const Contact = () => {
             </div>
 
             <div className="form__input-div">
-              <textarea placeholder="Your message" className="form__control textarea"></textarea>
+              <textarea placeholder="Your Message" className="form__control textarea"></textarea>
             </div>
           </div>
           <button className="button">

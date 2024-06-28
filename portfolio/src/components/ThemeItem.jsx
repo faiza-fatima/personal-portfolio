@@ -1,8 +1,8 @@
 // ThemeItem.jsx
-import React from 'react';
+import React  from 'react';
 
-const ThemeItem = ({ img }) => {
-  return <img src={img} alt="Theme" className="theme__img" />;
+const ThemeItem = ({color, img ,changeColor}) => {
+  return <img src={img} alt='' className="theme__img" onClick={()=>{changeColor(color)}} />;
 };
 
 export default ThemeItem;
